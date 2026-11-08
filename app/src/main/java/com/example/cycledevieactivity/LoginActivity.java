@@ -38,8 +38,8 @@ public class LoginActivity extends AppCompatActivity {
             String password = etPassword.getText().toString();
             if (username.equals("badr") && password.equals("badr234")) {
                 Intent intent = new Intent(this.getApplicationContext(), MainActivity.class);
-                intent.putExtra("firstname", "Badr");
-                intent.putExtra("lastname", "BADAOUI");
+                intent.putExtra("firstname", "Wunder");
+                intent.putExtra("lastname", "Prime");
                 intent.putExtra("session", "abcdefg");
                 startActivity(intent);
                 this.finish();
